@@ -1,0 +1,47 @@
+[gd_scene load_steps=2 format=3 uid="uid://cgeeohy0wnden"]
+
+[ext_resource type="PackedScene" uid="uid://dagtfo0pffdge" path="res://Brick.tscn" id="1_c8tlh"]
+
+[node name="Bricks" type="Node2D"]
+
+[node name="Brick" parent="." instance=ExtResource("1_c8tlh")]
+position = Vector2(1000, 150)
+
+[node name="Brick2" parent="." instance=ExtResource("1_c8tlh")]
+position = Vector2(1100, 150)
+
+[node name="Brick3" parent="." instance=ExtResource("1_c8tlh")]
+position = Vector2(1200, 150)
+
+[node name="Brick4" parent="." instance=ExtResource("1_c8tlh")]
+position = Vector2(1300, 150)
+
+[node name="Brick5" parent="." instance=ExtResource("1_c8tlh")]
+position = Vector2(1400, 150)
+
+[node name="Brick6" parent="." instance=ExtResource("1_c8tlh")]
+position = Vector2(900, 150)
+
+[node name="Brick7" parent="." instance=ExtResource("1_c8tlh")]
+position = Vector2(800, 150)
+
+[node name="Brick8" parent="." instance=ExtResource("1_c8tlh")]
+position = Vector2(700, 150)
+
+[node name="Brick9" parent="." instance=ExtResource("1_c8tlh")]
+position = Vector2(600, 150)
+
+[node name="Brick10" parent="." instance=ExtResource("1_c8tlh")]
+position = Vector2(500, 150)
+
+[node name="Brick11" parent="." instance=ExtResource("1_c8tlh")]
+position = Vector2(400, 150)
+
+[node name="Brick12" parent="." instance=ExtResource("1_c8tlh")]
+position = Vector2(300, 150)
+
+[node name="Brick13" parent="." instance=ExtResource("1_c8tlh")]
+position = Vector2(200, 150)
+
+[node name="Brick14" parent="." instance=ExtResource("1_c8tlh")]
+position = Vector2(100, 150)

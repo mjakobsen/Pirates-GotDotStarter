@@ -24,6 +24,12 @@ public partial class Ball : CharacterBody2D
 			// vores nye Velocity (retning og hastighed) ved at bruge en anden indbygget Godot-metode, nemlig Bounce()
 			Vector2 reflect = collision.GetRemainder().Bounce(collision.GetNormal());
 			Velocity = Velocity.Bounce(collision.GetNormal());
+			
+			if (collision.GetCollider() is Brick brick)
+			{
+				// her har du en variabel der hedder brick. Proev om du kan bruge den til at faa vores brick til at forsvinde
+				brick.Hit();
+			}
 
 			// Til sidst begynder vi at flytte vores scene i den nye retning
 			MoveAndCollide(reflect);
